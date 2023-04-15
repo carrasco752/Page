@@ -369,22 +369,36 @@ form {
   width: 500px;
   height: 600px;
   padding: 20px;
+  border-radius: 8px;
+}
+
+.formulario {
+  color: #b12727;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 label {
   display: block;
+  font-size: 23px;
+  color: #b12727;
   border-radius: 8px;
   border: none;
   margin-bottom: 15px;
 }
 
 input {
+  height: 33px;
   display: block;
   width: 100%;
   border-radius: 8px;
   border: none;
   margin-bottom: 15px;
   margin-top: 8px;
+  font-size: 18px;
 }
 
 textarea {

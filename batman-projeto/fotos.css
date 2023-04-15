@@ -1,0 +1,35 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    background-color:rebeccapurple;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.gallery-container{
+    text-align: center; /* usado para alinhar o testo ao centro*/
+    font-size: 300px;
+    background-color: aqua;
+    margin-bottom: 100px;
+    justify-content: space-around; 
+}
+
+.gallery-itens{
+    display:grid 1/4; /*altera a orientação dos inter para coluna */
+    justify-content: space-around;
+   
+}
+
+.person{
+    width: 9%; /* ALTERA IMAGEM, N° */
+    height: 160px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    border-left: 600px;
+    border-right:40px;
+    border: salmon solid;
+    /* brakepoinnt */
+}
+
